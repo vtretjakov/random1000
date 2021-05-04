@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         lab.text = "до 1000"
         lab.textAlignment = .center
-        button.setTitle("Случайное", for: [])
+        button.setTitle("random", for: [])
     }
     @IBAction func buttonPressed(_ sender: UIButton) {
         let randomNumber = Int.random(in: 1 ... 1000)
